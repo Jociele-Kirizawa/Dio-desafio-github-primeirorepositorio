@@ -1,0 +1,33 @@
+Crie um programa que tenha a unção de um supersomador (), que vai receber dois números como parametros e depois vai retornar a soma de todos os valores ni intervalo recebido.
+
+// Função :
+// Autor :Jociele
+// Data : 12/07/2022
+
+
+// Seção de Declarações 
+var
+ N1, N2, I: inteiro
+ funcao Somador (var V1,V2:inteiro) :Inteiro
+ var
+ cont, S, S1:inteiro
+ inicio
+        S <- 0
+       Para cont de V1 ate V2 faca
+          S <- S + cont
+
+
+
+          Retorne S
+
+       fimpara
+ fimfuncao
+inicio
+
+      Escreval ("Digite um número:")
+      Leia (N1)
+      Escreval ("DIgite outro número:")
+      Leia (N2)
+      I <- Somador (N1,N2)
+      Escreval ("A soma é ", I)
+fimalgoritmo
